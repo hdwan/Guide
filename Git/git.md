@@ -69,3 +69,23 @@ git checkout -b  分支名 // 新分支创建的同时切换分支
 
 ## 配置 ssh 
 
+打开 `GitBash` 
+
+输入：
+
+``` bash
+cd ~/.ssh
+```
+
+如果不存在 `.ssh` 文件夹，则需要创建：
+
+```java
+ssh-keygen -t rsa -C "example@163.com"
+```
+
+会默认生成 `.ssh` 文件。
+
+![image-20241008163718169](./typora文档图片/image-20241008163718169.png)
+
+然后去 `github` 上去将 `pub` 里的文件拷贝进去，建立 `ssh` 连接即可。
+
