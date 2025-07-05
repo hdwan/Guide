@@ -20,3 +20,14 @@
 - **关闭窗口**：
 - **删除线**：`"Strike": "Ctrl+R"`；
 - **超链接**：`"Hyperlink": "Ctrl+I"`；
+
+
+## **修改行距**
+
+```java
+p, blockquote, ul, ol, dl, table {
+    margin: 1em 0;
+}
+// p, 即 paragraphs
+```
+
